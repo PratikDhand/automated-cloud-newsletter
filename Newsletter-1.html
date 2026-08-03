@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Cloud Optimization Intelligence</title>
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; max-width: 850px; margin: 0 auto; padding: 30px; color: #2d3748; background-color: #f7fafc; }
+        header { text-align: center; margin-bottom: 40px; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        h1 { color: #1a365d; margin: 0; font-size: 28px; }
+        .subtitle { color: #4a5568; margin-top: 8px; font-size: 16px; }
+        .card { background: #fff; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); overflow: hidden; border: 1px solid #e2e8f0; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .card-image { width: 100%; height: 280px; object-fit: cover; }
+        .card-body { padding: 25px; }
+        
+        /* Updated and Organized Badges */
+        .badge-group { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px; }
+        .badge { font-size: 11px; font-weight: bold; text-transform: uppercase; padding: 5px 10px; border-radius: 6px; background: #e2e8f0; color: #4a5568; }
+        .badge.platform { background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; }
+        .badge.topic { background: #feebc8; color: #dd6b20; border: 1px solid #fbd38d; }
+        .badge.date { background: #edf2f7; color: #4a5568; border: 1px solid #e2e8f0; }
+        .badge.time { background: #f0fff4; color: #2f855a; border: 1px solid #c6f6d5; }
+        .badge.ai { background: #faf5ff; color: #6b46c1; border: 1px solid #e9d8fd; margin-left: auto; }
+        
+        .card-title { font-size: 22px; color: #1a202c; margin: 0 0 12px 0; font-weight: 700; line-height: 1.3; }
+        .card-text { font-size: 15px; line-height: 1.6; color: #4a5568; margin-bottom: 20px; }
+        .btn { display: inline-block; background: #2b6cb0; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; }
+        .btn:hover { background: #2c5282; }
+        footer { text-align: center; margin-top: 50px; font-size: 13px; color: #718096; border-top: 2px solid #e2e8f0; padding-top: 25px; line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud Cost &amp; Kubernetes Optimization Digest</h1>
+        <div class="subtitle">Automated intelligence briefing for engineering teams</div>
+    </header>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 31, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Scaling Kubernetes pods with KEDA based on Amazon SQS queue depth</h2>
+            <p class="card-text">In event-driven Kubernetes architectures, CPU and memory utilization often fail to reflect real system pressure. A worker pod may sit idle from a CPU perspective while thousands of messages pile up in...</p>
+            <a href="https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 30, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Runtime Supply Chain Verification using the Node Resource Interface (NRI)</h2>
+            <p class="card-text">The widely used container supply chain verification tools today operate at the Kubernetes API layer as admission webhooks (such as Kyverno, OPA Gatekeeper, and Sigstore Policy Controller). They interc...</p>
+            <a href="https://www.cncf.io/blog/2026/07/30/runtime-supply-chain-verification-using-the-node-resource-interface-nri/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Your Kubernetes health checks are accidentally waking your services. Here’s the fix.</h2>
+            <p class="card-text">Scale-to-zero breaks when health checks scale you back up. Learn how KubeElasti’s ProbeResponse lets Kubernetes services stay genuinely idle — while keeping load balancers and uptime monitors happy. S...</p>
+            <a href="https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">CNCF and SlashData Report Finds Japan’s Cloud Native Community Reaches Nearly 1 Million Developers</h2>
+            <p class="card-text">New research finds 100,000 of Japan’s AI developers now leverage cloud native technologies Key Highlights: YOKOHAMA – KubeCon + CloudNativeCon Japan —July 29, 2026— The Cloud Native Computing Foundati...</p>
+            <a href="https://www.cncf.io/announcements/2026/07/28/cncf-and-slashdata-report-finds-japans-cloud-native-community-reaches-nearly-1-million-developers/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Subaru Wins CNCF End User Case Study Contest for Accelerating AI Development with Cloud Native Infrastructure</h2>
+            <p class="card-text">New architecture reduced AI container image pull times by 60x while automating workflows for next-generation driver assistance systems Key Highlights YOKOHAMA – KUBECON + CLOUDNATIVECON JAPAN — July 2...</p>
+            <a href="https://www.cncf.io/announcements/2026/07/28/subaru-wins-cncf-end-user-case-study-contest-for-accelerating-ai-development-with-cloud-native-infrastructure/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Welcome CoHDI to the CNCF: Evolving Kubernetes into composable disaggregated infrastructures</h2>
+            <p class="card-text">We are thrilled to announce that CoHDI has officially been accepted as a Cloud Native Computing Foundation (CNCF) Sandbox project! This acceptance into the CNCF Sandbox marks an important milestone in...</p>
+            <a href="https://www.cncf.io/blog/2026/07/28/welcome-cohdi-to-the-cncf-evolving-kubernetes-into-composable-disaggregated-infrastructures/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 28, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">How Japan’s 250% Training Surge is Shaping Global AI Talent</h2>
+            <p class="card-text">The first KubeCon + CloudNativeCon Japan took place in Tokyo in June 2025 and kicked off a cloud native skills boom in the region. In the twelve months since the conference, Kubernetes exams taken in ...</p>
+            <a href="https://www.cncf.io/blog/2026/07/28/how-japans-250-training-surge-is-shaping-global-ai-talent/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: CNCF Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 28, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Kubeflow unveils new cloud native innovations to supercharge AI</h2>
+            <p class="card-text">The Kubeflow news coming out of Kubecon + CloudNativeCon Japan 2026 highlights several significant advancements and community initiatives.  The Kubeflow project is rapidly advancing toward CNCF Gradua...</p>
+            <a href="https://www.cncf.io/blog/2026/07/28/kubeflow-unveils-new-cloud-native-innovations-to-supercharge-ai/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/gateway-api-logo.svg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Kubernetes Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 6 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard</h2>
+            <p class="card-text">
+The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!
+Gateway API has become the standard for modern, role-oriente...</p>
+            <a href="https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Kubernetes Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 31, 2026</span>
+                <span class="badge time">⏱️ 6 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Kubernetes v1.37 Sneak Peek</h2>
+            <p class="card-text">As we get closer to the release date for Kubernetes v1.37, the project develops and matures,
+features may be deprecated, removed, or replaced with better ones for the project's overall
+health. This bl...</p>
+            <a href="https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/pipeline.svg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Kubernetes Blog</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 31 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server</h2>
+            <p class="card-text">
+Caution:Some of the technical detail in this article is not accurate. We are reviewing it and preparing
+corrections. Until then, check what you read here against the
+controller-runtime documentation....</p>
+            <a href="https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 2 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Engineering a Resilient AI Influencer Infrastructure on ShadowSocial.io with Qwen-Max Multi-Modal AI and Zero-Idle-RAM Queueing Techniques</h2>
+            <p class="card-text">Building a resilient AI influencer infrastructure on ShadowSocial.io involves integrating Qwen-Max, a multi-modal AI, with innovative queueing techniques to handle media generation and distribution ef...</p>
+            <a href="https://dev.to/biffer_rowley_4cdbf203087/engineering-a-resilient-ai-influencer-infrastructure-on-shadowsocialio-with-qwen-max-multi-modal-26mn" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 2 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Engineering Cutting-Edge AI Influencer Scalability on ShadowSocial.io with Qwen-Max Multi-Modal AI and Likeness Lock v2.4</h2>
+            <p class="card-text">Title: Engineering AI Influencer Scalability on ShadowSocial.io with Qwen-Max Multi-Modal AI and Likeness Lock v2.4
+At ShadowSocial.io, we've been tackling the challenge of scaling AI-driven influence...</p>
+            <a href="https://dev.to/biffer_rowley_4cdbf203087/engineering-cutting-edge-ai-influencer-scalability-on-shadowsocialio-with-qwen-max-multi-modal-ai-69a" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 5 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">How to Monitor Microservices: A Practical Guide for Distributed Systems</h2>
+            <p class="card-text">
+  
+  
+  How to Monitor Microservices: A Practical Guide for Distributed Systems
+
+Monitoring a monolith is simple: one service, one health endpoint, one status page. Monitoring microservices is harder...</p>
+            <a href="https://dev.to/vigilmon/how-to-monitor-microservices-a-practical-guide-for-distributed-systems-4lp6" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 4 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Vigilmon vs Dynatrace: Uptime Monitoring vs Full-Stack Observability (2026)</h2>
+            <p class="card-text">
+  
+  
+  Vigilmon vs Dynatrace: Uptime Monitoring vs Full-Stack Observability (2026)
+
+Dynatrace is one of the most powerful observability platforms on the market-and one of the most expensive. Vigilmo...</p>
+            <a href="https://dev.to/vigilmon/vigilmon-vs-dynatrace-uptime-monitoring-vs-full-stack-observability-2026-2io9" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 3 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Vigilmon vs OpsGenie: Uptime Monitoring vs On-Call Management (2026)</h2>
+            <p class="card-text">
+  
+  
+  Vigilmon vs OpsGenie: Uptime Monitoring vs On-Call Management (2026)
+
+OpsGenie and Vigilmon solve adjacent but distinct problems in incident management. Vigilmon detects that something is wro...</p>
+            <a href="https://dev.to/vigilmon/vigilmon-vs-opsgenie-uptime-monitoring-vs-on-call-management-2026-28cd" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 4 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">How to Monitor AWS RDS and Aurora with Vigilmon</h2>
+            <p class="card-text">
+  
+  
+  How to Monitor AWS RDS and Aurora with Vigilmon
+
+AWS RDS and Aurora provide managed database infrastructure, but "managed" doesn't mean "always up." Databases go into maintenance windows, con...</p>
+            <a href="https://dev.to/vigilmon/how-to-monitor-aws-rds-and-aurora-with-vigilmon-3f8d" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 4 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">How to Monitor Your Bun.js Application with Vigilmon</h2>
+            <p class="card-text">
+  
+  
+  How to Monitor Your Bun.js Application with Vigilmon
+
+Bun is fast-but fast doesn't mean infallible. Whether you're running a Bun HTTP server, an Elysia.js API, or a Bun-powered CLI service, y...</p>
+            <a href="https://dev.to/vigilmon/how-to-monitor-your-bunjs-application-with-vigilmon-1l31" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 3 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Vigilmon vs LogRocket: Uptime Monitoring vs Frontend Session Replay (2026)</h2>
+            <p class="card-text">
+  
+  
+  Vigilmon vs LogRocket: Uptime Monitoring vs Frontend Session Replay (2026)
+
+LogRocket and Vigilmon solve fundamentally different problems. If your app goes down, LogRocket won't tell you-and ...</p>
+            <a href="https://dev.to/vigilmon/vigilmon-vs-logrocket-uptime-monitoring-vs-frontend-session-replay-2026-17n1" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://via.placeholder.com/600x300/e0e0e0/555555?text=Cloud+Cost+%26+Optimization" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: Dev.to DevOps Tag</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 2 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">🚀 Beyond pip install: The Invisible Memory Leak Destroying AI Microservices</h2>
+            <p class="card-text">There is a specific kind of developer pain that only happens at 2:00 AM.
+Your code compiles. Your tests pass with flying colors. You build a sleek Python/AI microservice, write a few clean modules,wra...</p>
+            <a href="https://dev.to/ahmedadawy625/beyond-pip-install-the-invisible-memory-leak-destroying-ai-microservices-3b5o" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://cdn.thenewstack.io/media/2026/06/0356053a-and-machines-2yclstfxice-unsplash-1024x724.jpg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: The New Stack</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 03, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">DeepSeek’s smaller model just outperformed its own flagship</h2>
+            <p class="card-text">DeepSeek has launched DeepSeek-V4-Flash-0731, delivering a significant boost in agent performance without changing the model’s core architecture. Following an announcement
+The post DeepSeek’s smaller ...</p>
+            <a href="https://thenewstack.io/deepseek-v4-flash-open-weights/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://cdn.thenewstack.io/media/2026/08/a8af7de9-philip-oroni-6wutbzpovhg-unsplash-1024x683.jpg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: The New Stack</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Aug 01, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Kubernetes upgrades don’t have to break things: How EKS is making cluster lifecycle management simpler and safer</h2>
+            <p class="card-text">Kubernetes moves at a pace of three minor version releases per year, and staying current is not optional if you
+The post Kubernetes upgrades don’t have to break things: How EKS is making cluster lifec...</p>
+            <a href="https://thenewstack.io/eks-kubernetes-upgrade-rollback/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://cdn.thenewstack.io/media/2026/07/49f41857-eva-corbisier-pi4bgnllrrg-unsplash-1024x576.jpg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: The New Stack</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 31, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Nscale just bought Anyscale. Here’s why it matters for multi-cloud neutrality.</h2>
+            <p class="card-text">Cloud platform company Nscale announced this week a definitive agreement to acquire AI workload scaling specialist Anyscale, in a move
+The post Nscale just bought Anyscale. Here’s why it matters for m...</p>
+            <a href="https://thenewstack.io/nscale-anyscale-acquisition-neocloud-lockin/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://cdn.thenewstack.io/media/2026/07/efea7753-screenshot-2026-07-30-at-15.25.19-e1785439638411-1024x648.png" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: The New Stack</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 30, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">OpenAI slashes API costs amid rising global competition</h2>
+            <p class="card-text">OpenAI has lowered API prices for two GPT-5.6 models only three weeks after their launch. On Thursday, the company announced
+The post OpenAI slashes API costs amid rising global competition appeared f...</p>
+            <a href="https://thenewstack.io/gpt-5-6-api-price-cuts/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://cdn.thenewstack.io/media/2026/07/851e8d95-egor-komarov-9kndef3kkbm-unsplash-1024x556.jpg" alt="Cover Image" class="card-image">
+        <div class="card-body">
+            <div class="badge-group">
+                <span class="badge platform">📡 Platform: The New Stack</span>
+                <span class="badge topic">💡 Related To: CLOUD</span>
+                <span class="badge date">📅 Posted: Jul 29, 2026</span>
+                <span class="badge time">⏱️ 1 min read</span>
+                <span class="badge ai">✨ AI System Verified</span>
+            </div>
+            <h2 class="card-title">Your team isn’t “ignoring security.” They’re just underwater.</h2>
+            <p class="card-text">A cloud security finding becomes useful only when someone decides what matters, assigns an owner, and follows it through. For
+The post Your team isn’t “ignoring security.” They’re just underwater. app...</p>
+            <a href="https://thenewstack.io/cloud-security-triage-cadence/" target="_blank" class="btn">Read Original Article</a>
+        </div>
+    </article>
+
+    <footer>
+        <p>System Status: Execution Successful | Relational Database Synced | Gemini Cluster Engaged</p>
+        <p><strong>Academic Submission Reference:</strong> Pushkar Rathi (Reg: RA2411050010039)</p>
+    </footer>
+</body>
+</html>
