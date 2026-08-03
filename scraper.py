@@ -8,8 +8,9 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 from dotenv import load_dotenv
 # --- CONFIGURATION ---
+# --- CONFIGURATION ---
 DB_NAME = "newsletter_archive.db"
-OUTPUT_FILE = "Newsletter-1.html"
+OUTPUT_FILE = "index.html"
 
 # ⚠️ # ⚠️ LOAD API KEY SECURELY ⚠️
 load_dotenv()
